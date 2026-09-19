@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Object">
+      <UniqueIdentifier>{e5d5736e-0ff2-4de3-9841-fdc34ee73abc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Object\CPlayer">
+      <UniqueIdentifier>{6865ca75-258c-41dd-861d-fa4e8321508e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Define">
+      <UniqueIdentifier>{ed59246e-593b-413d-bb1a-5ab646002689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CBullet">
+      <UniqueIdentifier>{9c10698e-6d33-4692-bd42-9e30197be1eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CEnemy">
+      <UniqueIdentifier>{8c139ff8-b70b-4c01-8322-b94ef2dccd0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{2092a1a5-6ee6-4479-a494-214e6f7514f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CUnit">
+      <UniqueIdentifier>{d7c646cc-5fd2-454a-9193-977cd6190b63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CBackground">
+      <UniqueIdentifier>{6a4bcb86-19a9-4f73-83f2-4941c00cb518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CButton">
+      <UniqueIdentifier>{57ee60ba-7825-4521-9a8e-13be47a25946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CUi">
+      <UniqueIdentifier>{d0bdb3da-225b-4269-beb7-0ce15c391221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CEnemy\CBoss">
+      <UniqueIdentifier>{adf581eb-a2a6-4414-b163-28f99a9279f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CSkill">
+      <UniqueIdentifier>{5688a312-363d-4c07-87d8-781f5b3dcfd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CSkill\CShield">
+      <UniqueIdentifier>{04277206-0917-4479-894c-c5db65905040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CUi\CHeart">
+      <UniqueIdentifier>{11e5764e-a2af-4a92-9b8d-81f690e63a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{7f144491-2046-4acc-9415-c846d11e3971}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Object\CPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="CLeo.cpp">
+      <Filter>Object\CPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="CBullet.cpp">
+      <Filter>Object\CBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemy.cpp">
+      <Filter>Object\CEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CBulletManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CResourceManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CUnit.cpp">
+      <Filter>Object\CUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="CRenderManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CBackground.cpp">
+      <Filter>Object\CBackground</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjectManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CButton.cpp">
+      <Filter>Object\CButton</Filter>
+    </ClCompile>
+    <ClCompile Include="CUi.cpp">
+      <Filter>Object\CUi</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoss.cpp">
+      <Filter>Object\CEnemy\CBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkill.cpp">
+      <Filter>Object\CSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="CShield.cpp">
+      <Filter>Object\CSkill\CShield</Filter>
+    </ClCompile>
+    <ClCompile Include="CHeart.cpp">
+      <Filter>Object\CUi\CHeart</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>Object\CPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="CLeo.h">
+      <Filter>Object\CPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="CBullet.h">
+      <Filter>Object\CBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemy.h">
+      <Filter>Object\CEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CBulletManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CResourceManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SurfaceInfo.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="CUnit.h">
+      <Filter>Object\CUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="CRenderManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="CBackground.h">
+      <Filter>Object\CBackground</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CButton.h">
+      <Filter>Object\CButton</Filter>
+    </ClInclude>
+    <ClInclude Include="CUi.h">
+      <Filter>Object\CUi</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoss.h">
+      <Filter>Object\CEnemy\CBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkill.h">
+      <Filter>Object\CSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="CShield.h">
+      <Filter>Object\CSkill\CShield</Filter>
+    </ClInclude>
+    <ClInclude Include="CHeart.h">
+      <Filter>Object\CUi\CHeart</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

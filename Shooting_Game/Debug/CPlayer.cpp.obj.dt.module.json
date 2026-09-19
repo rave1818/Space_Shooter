@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\CPlayer.obj",
+            "outputs": [
+                "Debug\\CPlayer.cpp.obj.dt.module.json",
+                "Debug\\CPlayer.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

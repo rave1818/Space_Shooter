@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\CObject.obj",
+            "outputs": [
+                "Debug\\CObject.cpp.obj.dt.module.json",
+                "Debug\\CObject.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

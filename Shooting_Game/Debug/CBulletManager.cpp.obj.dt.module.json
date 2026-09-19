@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\CBulletManager.obj",
+            "outputs": [
+                "Debug\\CBulletManager.cpp.obj.dt.module.json",
+                "Debug\\CBulletManager.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
